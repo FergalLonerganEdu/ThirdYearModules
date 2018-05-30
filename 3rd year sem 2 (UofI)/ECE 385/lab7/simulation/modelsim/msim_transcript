@@ -1,0 +1,531 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do lab7_run_msim_rtl_systemverilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlib lab7_soc
+# vmap lab7_soc lab7_soc
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet lab7_soc lab7_soc 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis {D:/lab7/lab7_soc/synthesis/lab7_soc.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:37 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis" D:/lab7/lab7_soc/synthesis/lab7_soc.v 
+# -- Compiling module lab7_soc
+# 
+# Top level modules:
+# 	lab7_soc
+# End time: 16:05:38 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/altera_reset_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:38 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/altera_reset_controller.v 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 16:05:38 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:38 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/altera_reset_synchronizer.v 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 16:05:38 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:38 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0.v 
+# -- Compiling module lab7_soc_mm_interconnect_0
+# 
+# Top level modules:
+# 	lab7_soc_mm_interconnect_0
+# End time: 16:05:39 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_005.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:39 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_005.v 
+# -- Compiling module lab7_soc_mm_interconnect_0_avalon_st_adapter_005
+# 
+# Top level modules:
+# 	lab7_soc_mm_interconnect_0_avalon_st_adapter_005
+# End time: 16:05:40 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:40 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter.v 
+# -- Compiling module lab7_soc_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	lab7_soc_mm_interconnect_0_avalon_st_adapter
+# End time: 16:05:40 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/altera_avalon_sc_fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:40 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/altera_avalon_sc_fifo.v 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 16:05:41 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_sysid_qsys_0.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:41 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_sysid_qsys_0.v 
+# -- Compiling module lab7_soc_sysid_qsys_0
+# 
+# Top level modules:
+# 	lab7_soc_sysid_qsys_0
+# End time: 16:05:41 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:41 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v 
+# -- Compiling module lab7_soc_sdram_pll_dffpipe_l2c
+# -- Compiling module lab7_soc_sdram_pll_stdsync_sv6
+# -- Compiling module lab7_soc_sdram_pll_altpll_lqa2
+# -- Compiling module lab7_soc_sdram_pll
+# 
+# Top level modules:
+# 	lab7_soc_sdram_pll
+# End time: 16:05:42 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:42 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v 
+# -- Compiling module lab7_soc_sdram_input_efifo_module
+# -- Compiling module lab7_soc_sdram
+# 
+# Top level modules:
+# 	lab7_soc_sdram
+# End time: 16:05:42 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_onchip_memory2_0.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:42 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_onchip_memory2_0.v 
+# -- Compiling module lab7_soc_onchip_memory2_0
+# 
+# Top level modules:
+# 	lab7_soc_onchip_memory2_0
+# End time: 16:05:42 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:43 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0.v 
+# -- Compiling module lab7_soc_nios2_gen2_0
+# 
+# Top level modules:
+# 	lab7_soc_nios2_gen2_0
+# End time: 16:05:43 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:43 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu.v 
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_register_bank_a_module
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_register_bank_b_module
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_nios2_oci_debug
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_nios2_oci_break
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_nios2_oci_xbrk
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_nios2_oci_dbrk
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_nios2_oci_itrace
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_nios2_oci_td_mode
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_nios2_oci_dtrace
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_nios2_oci_fifo
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_nios2_oci_pib
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_nios2_oci_im
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_nios2_performance_monitors
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_nios2_avalon_reg
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_ociram_sp_ram_module
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_nios2_ocimem
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_nios2_oci
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu
+# 
+# Top level modules:
+# 	lab7_soc_nios2_gen2_0_cpu_nios2_performance_monitors
+# 	lab7_soc_nios2_gen2_0_cpu
+# End time: 16:05:45 on Mar 12,2016, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:46 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v 
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_debug_slave_sysclk
+# 
+# Top level modules:
+# 	lab7_soc_nios2_gen2_0_cpu_debug_slave_sysclk
+# End time: 16:05:46 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_tck.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:46 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_tck.v 
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_debug_slave_tck
+# 
+# Top level modules:
+# 	lab7_soc_nios2_gen2_0_cpu_debug_slave_tck
+# End time: 16:05:46 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:47 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v 
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_debug_slave_wrapper
+# 
+# Top level modules:
+# 	lab7_soc_nios2_gen2_0_cpu_debug_slave_wrapper
+# End time: 16:05:47 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_test_bench.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:47 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_test_bench.v 
+# -- Compiling module lab7_soc_nios2_gen2_0_cpu_test_bench
+# 
+# Top level modules:
+# 	lab7_soc_nios2_gen2_0_cpu_test_bench
+# End time: 16:05:48 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_led.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:48 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_led.v 
+# -- Compiling module lab7_soc_led
+# 
+# Top level modules:
+# 	lab7_soc_led
+# End time: 16:05:48 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/lab7 {D:/lab7/lab7.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:49 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/lab7" D:/lab7/lab7.sv 
+# -- Compiling module lab7
+# 
+# Top level modules:
+# 	lab7
+# End time: 16:05:49 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_irq_mapper.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:49 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_irq_mapper.sv 
+# -- Compiling module lab7_soc_irq_mapper
+# 
+# Top level modules:
+# 	lab7_soc_irq_mapper
+# End time: 16:05:51 on Mar 12,2016, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_005_error_adapter_0.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:51 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_005_error_adapter_0.sv 
+# -- Compiling module lab7_soc_mm_interconnect_0_avalon_st_adapter_005_error_adapter_0
+# 
+# Top level modules:
+# 	lab7_soc_mm_interconnect_0_avalon_st_adapter_005_error_adapter_0
+# End time: 16:05:52 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:52 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv 
+# -- Compiling module lab7_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	lab7_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 16:05:52 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:52 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v 
+# -- Compiling module altera_avalon_st_handshake_clock_crosser
+# 
+# Top level modules:
+# 	altera_avalon_st_handshake_clock_crosser
+# End time: 16:05:53 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:53 on Mar 12,2016
+# vlog -reportprogress 300 -vlog01compat -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v 
+# -- Compiling module altera_avalon_st_clock_crosser
+# 
+# Top level modules:
+# 	altera_avalon_st_clock_crosser
+# End time: 16:05:53 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_width_adapter.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:53 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_width_adapter.sv 
+# -- Compiling module altera_merlin_width_adapter
+# 
+# Top level modules:
+# 	altera_merlin_width_adapter
+# End time: 16:05:54 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:54 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 16:05:55 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_arbitrator.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:55 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_arbitrator.sv 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 16:05:55 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_mux_001.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:55 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_mux_001.sv 
+# -- Compiling module lab7_soc_mm_interconnect_0_rsp_mux_001
+# 
+# Top level modules:
+# 	lab7_soc_mm_interconnect_0_rsp_mux_001
+# End time: 16:05:56 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_mux.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:56 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_mux.sv 
+# -- Compiling module lab7_soc_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	lab7_soc_mm_interconnect_0_rsp_mux
+# End time: 16:05:57 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_demux_004.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:57 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_demux_004.sv 
+# -- Compiling module lab7_soc_mm_interconnect_0_rsp_demux_004
+# 
+# Top level modules:
+# 	lab7_soc_mm_interconnect_0_rsp_demux_004
+# End time: 16:05:57 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_demux.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:57 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_demux.sv 
+# -- Compiling module lab7_soc_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	lab7_soc_mm_interconnect_0_rsp_demux
+# End time: 16:05:58 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_mux_004.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:58 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_mux_004.sv 
+# -- Compiling module lab7_soc_mm_interconnect_0_cmd_mux_004
+# 
+# Top level modules:
+# 	lab7_soc_mm_interconnect_0_cmd_mux_004
+# End time: 16:05:58 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_mux.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:58 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_mux.sv 
+# -- Compiling module lab7_soc_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	lab7_soc_mm_interconnect_0_cmd_mux
+# End time: 16:05:59 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_demux_001.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:05:59 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_demux_001.sv 
+# -- Compiling module lab7_soc_mm_interconnect_0_cmd_demux_001
+# 
+# Top level modules:
+# 	lab7_soc_mm_interconnect_0_cmd_demux_001
+# End time: 16:06:00 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_demux.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:06:00 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_demux.sv 
+# -- Compiling module lab7_soc_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	lab7_soc_mm_interconnect_0_cmd_demux
+# End time: 16:06:00 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_adapter.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:06:00 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_adapter.sv 
+# -- Compiling module altera_merlin_burst_adapter
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter
+# End time: 16:06:01 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:06:01 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv 
+# -- Compiling module altera_merlin_burst_adapter_uncompressed_only
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_uncompressed_only
+# End time: 16:06:01 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_007.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:06:01 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_007.sv 
+# -- Compiling module lab7_soc_mm_interconnect_0_router_007_default_decode
+# -- Compiling module lab7_soc_mm_interconnect_0_router_007
+# 
+# Top level modules:
+# 	lab7_soc_mm_interconnect_0_router_007
+# End time: 16:06:02 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_006.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:06:02 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_006.sv 
+# -- Compiling module lab7_soc_mm_interconnect_0_router_006_default_decode
+# -- Compiling module lab7_soc_mm_interconnect_0_router_006
+# 
+# Top level modules:
+# 	lab7_soc_mm_interconnect_0_router_006
+# End time: 16:06:02 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_002.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:06:02 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_002.sv 
+# -- Compiling module lab7_soc_mm_interconnect_0_router_002_default_decode
+# -- Compiling module lab7_soc_mm_interconnect_0_router_002
+# 
+# Top level modules:
+# 	lab7_soc_mm_interconnect_0_router_002
+# End time: 16:06:03 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_001.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:06:03 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_001.sv 
+# -- Compiling module lab7_soc_mm_interconnect_0_router_001_default_decode
+# -- Compiling module lab7_soc_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	lab7_soc_mm_interconnect_0_router_001
+# End time: 16:06:04 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:06:04 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router.sv 
+# -- Compiling module lab7_soc_mm_interconnect_0_router_default_decode
+# -- Compiling module lab7_soc_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	lab7_soc_mm_interconnect_0_router
+# End time: 16:06:05 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_agent.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:06:05 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_agent.sv 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# 
+# (randomization, coverage or assertion) detected in the design.
+# 
+# These features are only supported in Questasim.
+# 
+# ** Warning: D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# 
+# (randomization, coverage or assertion) detected in the design.
+# 
+# These features are only supported in Questasim.
+# 
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 16:06:05 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_master_agent.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:06:05 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_master_agent.sv 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 16:06:06 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_translator.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:06:06 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_translator.sv 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 16:06:06 on Mar 12,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules {D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_master_translator.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:06:06 on Mar 12,2016
+# vlog -reportprogress 300 -sv -work lab7_soc "+incdir+D:/lab7/lab7_soc/synthesis/submodules" D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_master_translator.sv 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 16:06:07 on Mar 12,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 

@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1445452407 source:c:\users\fergal\desktop\comp sci for eng ii\assignment 5\src\can.cpp
+	"Can.h"
+	<iostream>
+
+1445452384 c:\users\fergal\desktop\comp sci for eng ii\assignment 5\include\can.h
+
+1445452384 source:c:\users\fergal\desktop\comp sci for eng ii\assignment 5\src\main.cpp
+	"Can.h"
+	"Product.h"
+	<iostream>
+	<stdlib.h>
+	<math.h>
+
+1445452384 c:\users\fergal\desktop\comp sci for eng ii\assignment 5\include\product.h
+
+1445452384 source:c:\users\fergal\desktop\comp sci for eng ii\assignment 5\src\product.cpp
+	"Product.h"
+

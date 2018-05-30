@@ -1,0 +1,1678 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/lab7/simulation/modelsim
+valtera_avalon_sc_fifo
+Z1 !s110 1457820340
+!i10b 1
+!s100 2@;YleiQS51@UMb7^^WbN1
+Iib3RzKV`UIPL[S9^]`Q^O0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z3 w1457812954
+8D:/lab7/lab7_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+FD:/lab7/lab7_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+Z4 L0 21
+Z5 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1457820340.634000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i113 1
+Z6 o-vlog01compat -work lab7_soc
+Z7 !s92 -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules
+valtera_avalon_st_clock_crosser
+!s110 1457820353
+!i10b 1
+!s100 _kMN<BJ0mkgSFXTW`85Bh2
+I;?]=dn=ibA3ac5>EaB]I_2
+R2
+R0
+Z8 w1457812956
+8D:/lab7/lab7_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
+FD:/lab7/lab7_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
+L0 22
+R5
+r1
+!s85 0
+31
+!s108 1457820353.237000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!i113 1
+R6
+R7
+valtera_avalon_st_handshake_clock_crosser
+Z9 !s110 1457820352
+!i10b 1
+!s100 <TeLS^R[XXnBHVSJ0:LXK0
+ILlU;<C<5]W[g^;A5goK?13
+R2
+R0
+R8
+8D:/lab7/lab7_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+FD:/lab7/lab7_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+Z10 L0 24
+R5
+r1
+!s85 0
+31
+!s108 1457820352.745000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!i113 1
+R6
+R7
+valtera_merlin_arb_adder
+Z11 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z12 !s110 1457820355
+!i10b 1
+!s100 K`mj4ab`UI=f=Bzd]0FbK0
+I2TWeL5j<?E1DmYP0A;Obi3
+R2
+Z13 !s105 altera_merlin_arbitrator_sv_unit
+S1
+R0
+R3
+Z14 8D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+Z15 FD:/lab7/lab7_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+L0 228
+R5
+r1
+!s85 0
+31
+Z16 !s108 1457820355.261000
+Z17 !s107 D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_arbitrator.sv|
+Z18 !s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_arbitrator.sv|
+!i113 1
+Z19 o-sv -work lab7_soc
+Z20 !s92 -sv -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis/submodules
+valtera_merlin_arbitrator
+R11
+R12
+!i10b 1
+!s100 Ni=FjEDhlN5HaJIeO8C?D0
+IOl5hM`BCT^B6mkH[MJNKJ0
+R2
+R13
+S1
+R0
+R3
+R14
+R15
+L0 103
+R5
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R19
+R20
+valtera_merlin_burst_adapter
+R11
+Z21 !s110 1457820360
+!i10b 1
+!s100 bZ1:f>0J6eV<A[jRUL5_B2
+IX4AP41QQlBR<S88MjRbHj3
+R2
+!s105 altera_merlin_burst_adapter_sv_unit
+S1
+R0
+R3
+8D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_adapter.sv
+FD:/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_adapter.sv
+R4
+R5
+r1
+!s85 0
+31
+!s108 1457820360.821000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_adapter.sv|
+!i113 1
+R19
+R20
+valtera_merlin_burst_adapter_uncompressed_only
+R11
+!s110 1457820361
+!i10b 1
+!s100 [J2_:XWPb<2O<hPWP1MZz3
+I3i?18I=Y@W5_h5RO:ThAB3
+R2
+!s105 altera_merlin_burst_adapter_uncmpr_sv_unit
+S1
+R0
+R3
+8D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv
+FD:/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv
+L0 39
+R5
+r1
+!s85 0
+31
+!s108 1457820361.338000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv|
+!i113 1
+R19
+R20
+valtera_merlin_burst_uncompressor
+R11
+Z22 !s110 1457820354
+!i10b 1
+!s100 GURQ=I3dUngBFBEkGhKmh3
+IZTR59U1m>C^2aX_GW3mEf2
+R2
+!s105 altera_merlin_burst_uncompressor_sv_unit
+S1
+R0
+R3
+8D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+FD:/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+L0 40
+R5
+r1
+!s85 0
+31
+!s108 1457820354.764000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!i113 1
+R19
+R20
+valtera_merlin_master_agent
+R11
+Z23 !s110 1457820366
+!i10b 1
+!s100 ;96Rc=znn;@WbB0jWGRRl1
+Ieh16@f93UNQMg^^h7b=ab0
+R2
+!s105 altera_merlin_master_agent_sv_unit
+S1
+R0
+R3
+8D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_master_agent.sv
+FD:/lab7/lab7_soc/synthesis/submodules/altera_merlin_master_agent.sv
+L0 28
+R5
+r1
+!s85 0
+31
+!s108 1457820365.850000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_master_agent.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_master_agent.sv|
+!i113 1
+R19
+R20
+valtera_merlin_master_translator
+R11
+!s110 1457820367
+!i10b 1
+!s100 6[_D]96gi`8O488PiFWUc1
+IMDM?^SCH;_3FESDmofh1<3
+R2
+!s105 altera_merlin_master_translator_sv_unit
+S1
+R0
+R3
+8D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_master_translator.sv
+FD:/lab7/lab7_soc/synthesis/submodules/altera_merlin_master_translator.sv
+L0 30
+R5
+r1
+!s85 0
+31
+!s108 1457820366.976000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_master_translator.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_master_translator.sv|
+!i113 1
+R19
+R20
+valtera_merlin_slave_agent
+R11
+!s110 1457820365
+!i10b 1
+!s100 3LfTAj;bB3aAXgCgCn_bT3
+I<Fk<J4=cdlU^QEg:N`Q3k3
+R2
+!s105 altera_merlin_slave_agent_sv_unit
+S1
+R0
+R3
+8D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_agent.sv
+FD:/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_agent.sv
+L0 34
+R5
+r1
+!s85 0
+31
+!s108 1457820365.207000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_agent.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_agent.sv|
+!i113 1
+R19
+R20
+valtera_merlin_slave_translator
+R11
+R23
+!i10b 1
+!s100 dTa]H8`_eei9>oMl>o5z71
+IkA:Q`VeUhOV06kR=]77Hl3
+R2
+!s105 altera_merlin_slave_translator_sv_unit
+S1
+R0
+R3
+8D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_translator.sv
+FD:/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_translator.sv
+L0 35
+R5
+r1
+!s85 0
+31
+!s108 1457820366.396000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_translator.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_translator.sv|
+!i113 1
+R19
+R20
+valtera_merlin_width_adapter
+R11
+R22
+!i10b 1
+!s100 g=LN@e0hT7O1f_GYh[W>G3
+I:c^oS?zP3Ang4=6o]b60<3
+R2
+!s105 altera_merlin_width_adapter_sv_unit
+S1
+R0
+R8
+8D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_width_adapter.sv
+FD:/lab7/lab7_soc/synthesis/submodules/altera_merlin_width_adapter.sv
+L0 25
+R5
+r1
+!s85 0
+31
+!s108 1457820353.732000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_width_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/altera_merlin_width_adapter.sv|
+!i113 1
+R19
+R20
+valtera_reset_controller
+Z24 !s110 1457820338
+!i10b 1
+!s100 VEhLaE^KT@RiagZkfkKI93
+I4lOgP_VGFQNjloO]^fMLH0
+R2
+R0
+Z25 w1457812930
+8D:/lab7/lab7_soc/synthesis/submodules/altera_reset_controller.v
+FD:/lab7/lab7_soc/synthesis/submodules/altera_reset_controller.v
+L0 42
+R5
+r1
+!s85 0
+31
+!s108 1457820338.128000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/altera_reset_controller.v|
+!i113 1
+R6
+R7
+valtera_reset_synchronizer
+R24
+!i10b 1
+!s100 UTD:?4E=?>;X@do<;V;hQ1
+ISAh2ZGH3;ZdYbnf1Cj8jz1
+R2
+R0
+R25
+8D:/lab7/lab7_soc/synthesis/submodules/altera_reset_synchronizer.v
+FD:/lab7/lab7_soc/synthesis/submodules/altera_reset_synchronizer.v
+R10
+R5
+r1
+!s85 0
+31
+!s108 1457820338.597000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R6
+R7
+vlab7_soc
+!s110 1457820337
+!i10b 1
+!s100 KEIX9aDfI<HTEWTB:Re?E1
+IEN=KiTkg9aKPmT?1Q2GkV2
+R2
+R0
+w1457812898
+8D:/lab7/lab7_soc/synthesis/lab7_soc.v
+FD:/lab7/lab7_soc/synthesis/lab7_soc.v
+L0 6
+R5
+r1
+!s85 0
+31
+!s108 1457820337.336000
+!s107 D:/lab7/lab7_soc/synthesis/lab7_soc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis|D:/lab7/lab7_soc/synthesis/lab7_soc.v|
+!i113 1
+R6
+!s92 -vlog01compat -work lab7_soc +incdir+D:/lab7/lab7_soc/synthesis
+vlab7_soc_irq_mapper
+R11
+!s110 1457820349
+!i10b 1
+!s100 K@a2bF>4Ne6?HReo;`VBL3
+I;n:bEO;kH^WRNW>JAXb:c3
+R2
+!s105 lab7_soc_irq_mapper_sv_unit
+S1
+R0
+R25
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_irq_mapper.sv
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_irq_mapper.sv
+L0 31
+R5
+r1
+!s85 0
+31
+!s108 1457820349.734000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_irq_mapper.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_irq_mapper.sv|
+!i113 1
+R19
+R20
+vlab7_soc_led
+Z26 !s110 1457820348
+!i10b 1
+!s100 U:U0>mzLY=<eA>e7^g4PE0
+I3If^KAdOo3Ff^c^g9eJCW3
+R2
+R0
+Z27 w1457812902
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_led.v
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_led.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1457820348.660000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_led.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_led.v|
+!i113 1
+R6
+R7
+vlab7_soc_mm_interconnect_0
+Z28 !s110 1457820339
+!i10b 1
+!s100 NA<ikz@CVYfLkB6fYTidm2
+Ia]ALKd<2MYP7<aLBDk=DK2
+R2
+R0
+R25
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0.v
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+!s108 1457820338.988000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0.v|
+!i113 1
+R6
+R7
+vlab7_soc_mm_interconnect_0_avalon_st_adapter
+R1
+!i10b 1
+!s100 CdkaYZV^dn<CVo5JM=V]71
+I<jYhS4QBcPXH;W[P[IX;C3
+R2
+R0
+R8
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter.v
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter.v
+L0 9
+R5
+r1
+!s85 0
+31
+!s108 1457820340.164000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter.v|
+!i113 1
+R6
+R7
+vlab7_soc_mm_interconnect_0_avalon_st_adapter_005
+R28
+!i10b 1
+!s100 A>oTH93D?3RQ<]TaBPmZ63
+IJD[go4Wf24efJO_hCNX0=2
+R2
+R0
+R8
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_005.v
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_005.v
+L0 9
+R5
+r1
+!s85 0
+31
+!s108 1457820339.697000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_005.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_005.v|
+!i113 1
+R6
+R7
+vlab7_soc_mm_interconnect_0_avalon_st_adapter_005_error_adapter_0
+R11
+!s110 1457820351
+!i10b 1
+!s100 @U=BEIDe4fZ?m6ZG3cN<U0
+IaPkzlR[dAkbVz?`G1nFMX1
+R2
+!s105 lab7_soc_mm_interconnect_0_avalon_st_adapter_005_error_adapter_0_sv_unit
+S1
+R0
+R8
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_005_error_adapter_0.sv
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_005_error_adapter_0.sv
+Z29 L0 66
+R5
+r1
+!s85 0
+31
+!s108 1457820351.843000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_005_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_005_error_adapter_0.sv|
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+R11
+R9
+!i10b 1
+!s100 8De9c^h36gTa4UmfhUmeF1
+I^=7jbZQmgI@<A<bb9W1Jz2
+R2
+!s105 lab7_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0_sv_unit
+S1
+R0
+R8
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+R29
+R5
+r1
+!s85 0
+31
+!s108 1457820352.279000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_cmd_demux
+R11
+R21
+!i10b 1
+!s100 MX6T]Z3J>FLlH^=TX9DEI0
+I:R3ml[1L?ZRATioMz[3=R2
+R2
+!s105 lab7_soc_mm_interconnect_0_cmd_demux_sv_unit
+S1
+R0
+R3
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_demux.sv
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_demux.sv
+Z30 L0 43
+R5
+r1
+!s85 0
+31
+!s108 1457820360.304000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_demux.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_demux.sv|
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_cmd_demux_001
+R11
+!s110 1457820359
+!i10b 1
+!s100 h6YHd@19@C]cF1=o_F`<b3
+I^@@1kfNWl17[[bS5KdT8h3
+R2
+!s105 lab7_soc_mm_interconnect_0_cmd_demux_001_sv_unit
+S1
+R0
+R3
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_demux_001.sv
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_demux_001.sv
+R30
+R5
+r1
+!s85 0
+31
+!s108 1457820359.388000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_demux_001.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_demux_001.sv|
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_cmd_mux
+R11
+Z31 !s110 1457820358
+!i10b 1
+!s100 @1hVJa>6ML^K=k:k]V?Bl3
+I^9cl`?>2j<COzzSzhRbV^3
+R2
+!s105 lab7_soc_mm_interconnect_0_cmd_mux_sv_unit
+S1
+R0
+R3
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_mux.sv
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_mux.sv
+Z32 L0 51
+R5
+r1
+!s85 0
+31
+!s108 1457820358.810000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_mux.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_mux.sv|
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_cmd_mux_004
+R11
+R31
+!i10b 1
+!s100 ?@Q`4Z0>o=0LTzZZ<B]]43
+IDlZ3@SQW[`0Xd;6SzJWUF3
+R2
+!s105 lab7_soc_mm_interconnect_0_cmd_mux_004_sv_unit
+S1
+R0
+R3
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_mux_004.sv
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_mux_004.sv
+R32
+R5
+r1
+!s85 0
+31
+!s108 1457820358.306000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_mux_004.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_mux_004.sv|
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_router
+R11
+Z33 !s110 1457820364
+!i10b 1
+!s100 FCE[a<5Q>[OCUU7S^@9?o0
+IXEhEO^HU2`2i_VEZOP:f13
+R2
+Z34 !s105 lab7_soc_mm_interconnect_0_router_sv_unit
+S1
+R0
+R3
+Z35 8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router.sv
+Z36 FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router.sv
+Z37 L0 84
+R5
+r1
+!s85 0
+31
+Z38 !s108 1457820364.664000
+Z39 !s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router.sv|
+Z40 !s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router.sv|
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_router_001
+R11
+R33
+!i10b 1
+!s100 ;QcTRG5nA0WZ:gBkO8]K]1
+IWj<U]V21JQ5AcanlcjVOb0
+R2
+Z41 !s105 lab7_soc_mm_interconnect_0_router_001_sv_unit
+S1
+R0
+R3
+Z42 8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_001.sv
+Z43 FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_001.sv
+R37
+R5
+r1
+!s85 0
+31
+Z44 !s108 1457820363.792000
+Z45 !s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_001.sv|
+Z46 !s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_001.sv|
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_router_001_default_decode
+R11
+R33
+!i10b 1
+!s100 oEHIH6E>;d6cKnS2KBEGR0
+ITeb^@@2eE0o[7KOBbcj0H0
+R2
+R41
+S1
+R0
+R3
+R42
+R43
+Z47 L0 45
+R5
+r1
+!s85 0
+31
+R44
+R45
+R46
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_router_002
+R11
+Z48 !s110 1457820363
+!i10b 1
+!s100 n;9nogQBlMC>2W@anAW_k3
+IiH8NZRR9eCPcWnc4MGma81
+R2
+Z49 !s105 lab7_soc_mm_interconnect_0_router_002_sv_unit
+S1
+R0
+R3
+Z50 8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_002.sv
+Z51 FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_002.sv
+R37
+R5
+r1
+!s85 0
+31
+Z52 !s108 1457820362.935000
+Z53 !s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_002.sv|
+Z54 !s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_002.sv|
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_router_002_default_decode
+R11
+R48
+!i10b 1
+!s100 EPK0H][mQZYZQa`lMH1K81
+Iz@NQ3aMRGizKP`XI4405]3
+R2
+R49
+S1
+R0
+R3
+R50
+R51
+R47
+R5
+r1
+!s85 0
+31
+R52
+R53
+R54
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_router_006
+R11
+Z55 !s110 1457820362
+!i10b 1
+!s100 H`?B?mNYMR>66PM_2izGZ2
+IOZU>LJ^3LCQ[IYSc1gVPn0
+R2
+Z56 !s105 lab7_soc_mm_interconnect_0_router_006_sv_unit
+S1
+R0
+R3
+Z57 8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_006.sv
+Z58 FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_006.sv
+R37
+R5
+r1
+!s85 0
+31
+Z59 !s108 1457820362.399000
+Z60 !s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_006.sv|
+Z61 !s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_006.sv|
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_router_006_default_decode
+R11
+R55
+!i10b 1
+!s100 KN;hZzFHg9WXTdW6gEbXg1
+Izf;UaFOSXF5[M`23MMK:]3
+R2
+R56
+S1
+R0
+R3
+R57
+R58
+R47
+R5
+r1
+!s85 0
+31
+R59
+R60
+R61
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_router_007
+R11
+R55
+!i10b 1
+!s100 B=Q=ZNY`m8]VYhRnoB[aQ0
+IM6?4zJ36cESfd]V2k63OL3
+R2
+Z62 !s105 lab7_soc_mm_interconnect_0_router_007_sv_unit
+S1
+R0
+R3
+Z63 8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_007.sv
+Z64 FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_007.sv
+R37
+R5
+r1
+!s85 0
+31
+Z65 !s108 1457820361.869000
+Z66 !s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_007.sv|
+Z67 !s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_007.sv|
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_router_007_default_decode
+R11
+R55
+!i10b 1
+!s100 Rk?69oB@iOIki7KgG`H?a1
+IKo?izE0c;@e<?886@B`lQ0
+R2
+R62
+S1
+R0
+R3
+R63
+R64
+R47
+R5
+r1
+!s85 0
+31
+R65
+R66
+R67
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_router_default_decode
+R11
+R33
+!i10b 1
+!s100 T]Qo1ILi>8B_<=A5o3ncz1
+I2l[R=`SgS_Faab]_EULcP0
+R2
+R34
+S1
+R0
+R3
+R35
+R36
+R47
+R5
+r1
+!s85 0
+31
+R38
+R39
+R40
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_rsp_demux
+R11
+Z68 !s110 1457820357
+!i10b 1
+!s100 XB5]2n_7:@KAC4J^3GAZC0
+IDl1aN_Qz[H9[7dzT1Z8;d0
+R2
+!s105 lab7_soc_mm_interconnect_0_rsp_demux_sv_unit
+S1
+R0
+R8
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_demux.sv
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_demux.sv
+R30
+R5
+r1
+!s85 0
+31
+!s108 1457820357.803000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_demux.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_demux.sv|
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_rsp_demux_004
+R11
+R68
+!i10b 1
+!s100 :`AUQ0ed^zO8FSK2Uh:m@2
+IFB[SMjbX0dcFUHGfQ42O11
+R2
+!s105 lab7_soc_mm_interconnect_0_rsp_demux_004_sv_unit
+S1
+R0
+R8
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_demux_004.sv
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_demux_004.sv
+R30
+R5
+r1
+!s85 0
+31
+!s108 1457820357.305000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_demux_004.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_demux_004.sv|
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_rsp_mux
+R11
+Z69 !s110 1457820356
+!i10b 1
+!s100 Q9dWzbLd@oYR]LP3MjaTh3
+IzOPB4hI=77I=FK4ncC62Y3
+R2
+!s105 lab7_soc_mm_interconnect_0_rsp_mux_sv_unit
+S1
+R0
+R8
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_mux.sv
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_mux.sv
+R32
+R5
+r1
+!s85 0
+31
+!s108 1457820356.353000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_mux.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_mux.sv|
+!i113 1
+R19
+R20
+vlab7_soc_mm_interconnect_0_rsp_mux_001
+R11
+R69
+!i10b 1
+!s100 ;iX<lj?>[iZPAJkH6BKPl1
+IdNjPRTz=LFH<g0l;az[4A2
+R2
+!s105 lab7_soc_mm_interconnect_0_rsp_mux_001_sv_unit
+S1
+R0
+R8
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_mux_001.sv
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_mux_001.sv
+R32
+R5
+r1
+!s85 0
+31
+!s108 1457820355.834000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_mux_001.sv|
+!s90 -reportprogress|300|-sv|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_mux_001.sv|
+!i113 1
+R19
+R20
+vlab7_soc_nios2_gen2_0
+!s110 1457820343
+!i10b 1
+!s100 V]:3?BYD9YcjZk73cL0:_1
+Ikc440PBPYcCJAKo?7fD`11
+R2
+R0
+R27
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0.v
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+!s108 1457820343.073000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0.v|
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu
+!s110 1457820345
+!i10b 1
+!s100 <7VKR9LWIUPhbF3o?]Q761
+IVj@b7g5AUkPh1;b:6n0Mf0
+R2
+R0
+R3
+Z70 8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu.v
+Z71 FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu.v
+L0 2981
+R5
+r1
+!s85 0
+31
+Z72 !s108 1457820343.943000
+Z73 !s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu.v|
+Z74 !s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu.v|
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_debug_slave_sysclk
+Z75 !s110 1457820346
+!i10b 1
+!s100 zk:IU9MiS9z:McBee9L?h3
+IQzK6ePUSMbXa96dh<IAaL0
+R2
+R0
+R3
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1457820346.100000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_debug_slave_tck
+R75
+!i10b 1
+!s100 Kj<gNeEBz12AfSm6f2JXA0
+IT^S:0daHTC6ZHiKgaVc]]1
+R2
+R0
+R3
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1457820346.594000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_tck.v|
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_debug_slave_wrapper
+!s110 1457820347
+!i10b 1
+!s100 :3oBUP9aPg^5B`4UfI?E12
+Im<cFLiEMFhek=iON8c>m@2
+R2
+R0
+R3
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1457820347.109000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_nios2_avalon_reg
+Z76 !s110 1457820344
+!i10b 1
+!s100 fIEXFDZ7_ZIic8@2_@M3V0
+I@G5fI0@0WW3WnC;1Cc6P]1
+R2
+R0
+R3
+R70
+R71
+L0 2177
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_nios2_oci
+R76
+!i10b 1
+!s100 kAZiPKz:7bfBbK3W_a4j^1
+IJfg?ATi<XUzkldW;>TN@B0
+R2
+R0
+R3
+R70
+R71
+L0 2510
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_nios2_oci_break
+R76
+!i10b 1
+!s100 HR>cYa3<J>iPje=R==l_80
+I<M`G[`cP>WYP8]0;WEOHN2
+R2
+R0
+R3
+R70
+R71
+L0 292
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+R76
+!i10b 1
+!s100 ORY7FUf88HE0R<SK_bTBe3
+I7EC97gVhoJDoCCNmVOzoD1
+R2
+R0
+R3
+R70
+R71
+L0 1426
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_nios2_oci_dbrk
+R76
+!i10b 1
+!s100 [SjQb@38]e5>W;5ZT]Lc?1
+I8jzg4=M?<Tm]`dQk8o]?Q3
+R2
+R0
+R3
+R70
+R71
+L0 790
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_nios2_oci_debug
+R76
+!i10b 1
+!s100 GIQFUM;jG]2KhcHAig2dm0
+INhh69fPAk4XeM`6KnBFdS3
+R2
+R0
+R3
+R70
+R71
+L0 151
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_nios2_oci_dtrace
+R76
+!i10b 1
+!s100 4L6;fCj2dGf6X_[CjJzID0
+I1SzNTfQH5kl?@[g;FR58L3
+R2
+R0
+R3
+R70
+R71
+L0 1345
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_nios2_oci_fifo
+R76
+!i10b 1
+!s100 mz@jbJ3aZTm0R7hR:7V1g1
+I<SmhFNljdHR3AoI:i`0^43
+R2
+R0
+R3
+R70
+R71
+L0 1585
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+R76
+!i10b 1
+!s100 mOJT97Ak2BU1^E=WVfai92
+If260iC6L?E;8SBh8hb1?V3
+R2
+R0
+R3
+R70
+R71
+L0 1539
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+R76
+!i10b 1
+!s100 `6CJUBK6<FbKDgcmV6LRT1
+IPXcQBkSYS;MW3R6F2l=^R0
+R2
+R0
+R3
+R70
+R71
+L0 1497
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_nios2_oci_im
+R76
+!i10b 1
+!s100 jNkLTi:6z=6ETm2]AC00:0
+IN<[1J8;e]Xg4izfjd?^aJ2
+R2
+R0
+R3
+R70
+R71
+L0 2092
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_nios2_oci_itrace
+R76
+!i10b 1
+!s100 l51KZFG0;TBAZWblQ=KEL3
+I=mUSH<?9H54O?aO99T2Lh3
+R2
+R0
+R3
+R70
+R71
+L0 976
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_nios2_oci_pib
+R76
+!i10b 1
+!s100 X:]hUFoV?gcES09Q6fll83
+Izm7Z<l;bh^T=[26Q=e@Kz1
+R2
+R0
+R3
+R70
+R71
+L0 2070
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_nios2_oci_td_mode
+R76
+!i10b 1
+!s100 S5]C3Y0QZ2bDj55[84PMj0
+I]2K1[m@N8[RMk<kn`g?231
+R2
+R0
+R3
+R70
+R71
+L0 1278
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_nios2_oci_xbrk
+R76
+!i10b 1
+!s100 Iffa6@Sk@[fU1VS54ohD;2
+I>@M_6R;:RF;dQ<[U:BdHY3
+R2
+R0
+R3
+R70
+R71
+L0 584
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_nios2_ocimem
+R76
+!i10b 1
+!s100 XPj661TPR;nF1;gi6i2=H1
+I;351fCYffR]3gJH4X4>k13
+R2
+R0
+R3
+R70
+R71
+L0 2332
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_nios2_performance_monitors
+R76
+!i10b 1
+!s100 OE1MGUJ2@=LhNB@X0@^hl0
+IB[dD0di9gnL7B5@TCDRMD2
+R2
+R0
+R3
+R70
+R71
+L0 2161
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_ociram_sp_ram_module
+R76
+!i10b 1
+!s100 050@2ob_o[X3SNFB5?K1d2
+I0N2TA^OUS7hLaQNKPZ3><2
+R2
+R0
+R3
+R70
+R71
+L0 2269
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_register_bank_a_module
+R76
+!i10b 1
+!s100 :AQ7XDIoO?ANOB@j1la;b3
+IR>;iFg:6j?K5X;dARg<kY2
+R2
+R0
+R3
+R70
+R71
+R4
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_register_bank_b_module
+R76
+!i10b 1
+!s100 hS91E@@k:O_FHU<ndfF_h3
+I2bSf9VORZ5@`[MG_GjL^21
+R2
+R0
+R3
+R70
+R71
+L0 86
+R5
+r1
+!s85 0
+31
+R72
+R73
+R74
+!i113 1
+R6
+R7
+vlab7_soc_nios2_gen2_0_cpu_test_bench
+R26
+!i10b 1
+!s100 eY:M8jKXCTV_RmM8]9fof1
+I<@75;AMl8loI3EHN7zTZR0
+R2
+R0
+R3
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_test_bench.v
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_test_bench.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1457820347.608000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_test_bench.v|
+!i113 1
+R6
+R7
+vlab7_soc_onchip_memory2_0
+Z77 !s110 1457820342
+!i10b 1
+!s100 gjHFK7e9ZV0j>9^mho3Cj1
+Iz7V[58A_T2WQ2jC@nR1]_0
+R2
+R0
+w1457812904
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_onchip_memory2_0.v
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_onchip_memory2_0.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1457820342.641000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_onchip_memory2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_onchip_memory2_0.v|
+!i113 1
+R6
+R7
+vlab7_soc_sdram
+R77
+!i10b 1
+!s100 WRHf6=1R^Q2GC;M76A:@50
+I;A?5EAHzCWlYc4jG]IR4b0
+R2
+R0
+Z78 w1457812906
+Z79 8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v
+Z80 FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v
+L0 158
+R5
+r1
+!s85 0
+31
+Z81 !s108 1457820342.129000
+Z82 !s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v|
+Z83 !s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v|
+!i113 1
+R6
+R7
+vlab7_soc_sdram_input_efifo_module
+R77
+!i10b 1
+!s100 AUWOZf2SD:e1[:S_N_25P0
+IFEo?dn6nbiYI>`zJG>PEA0
+R2
+R0
+R78
+R79
+R80
+R4
+R5
+r1
+!s85 0
+31
+R81
+R82
+R83
+!i113 1
+R6
+R7
+vlab7_soc_sdram_pll
+Z84 !s110 1457820341
+!i10b 1
+!s100 maBg=F@03cOmoQ9<2dBoG0
+IM1c^`k[DQ_`[gNfceTa>X3
+R2
+R0
+Z85 w1457812918
+Z86 8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v
+Z87 FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v
+L0 218
+R5
+r1
+!s85 0
+31
+Z88 !s108 1457820341.604000
+Z89 !s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v|
+Z90 !s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v|
+!i113 1
+R6
+R7
+vlab7_soc_sdram_pll_altpll_lqa2
+R84
+!i10b 1
+!s100 FcegO]BCocBj`K>E]Qc;k2
+IgE^`XL7joNk4[ChK:zzI^3
+R2
+R0
+R85
+R86
+R87
+L0 131
+R5
+r1
+!s85 0
+31
+R88
+R89
+R90
+!i113 1
+R6
+R7
+vlab7_soc_sdram_pll_dffpipe_l2c
+R84
+!i10b 1
+!s100 Jnj2Nhnk]D[DV:jEKWmjf0
+IU^;AR2jYbU0>G?UN4P3R@1
+R2
+R0
+R85
+R86
+R87
+L0 38
+R5
+r1
+!s85 0
+31
+R88
+R89
+R90
+!i113 1
+R6
+R7
+vlab7_soc_sdram_pll_stdsync_sv6
+R84
+!i10b 1
+!s100 ^Nz]eULI8zjYC9C6n8zz[1
+IMIQN5]Y;P>EX_CzT6^U;c2
+R2
+R0
+R85
+R86
+R87
+L0 99
+R5
+r1
+!s85 0
+31
+R88
+R89
+R90
+!i113 1
+R6
+R7
+vlab7_soc_sysid_qsys_0
+R84
+!i10b 1
+!s100 YnZnTF5YJSEoFWO_M8==d3
+IkMeE8?jMTgI487ZSTYo3I2
+R2
+R0
+R85
+8D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_sysid_qsys_0.v
+FD:/lab7/lab7_soc/synthesis/submodules/lab7_soc_sysid_qsys_0.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1457820341.221000
+!s107 D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_sysid_qsys_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab7_soc|+incdir+D:/lab7/lab7_soc/synthesis/submodules|D:/lab7/lab7_soc/synthesis/submodules/lab7_soc_sysid_qsys_0.v|
+!i113 1
+R6
+R7

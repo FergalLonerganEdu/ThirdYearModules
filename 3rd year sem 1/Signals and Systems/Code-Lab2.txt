@@ -1,0 +1,190 @@
+% Question 1:
+
+
+N=1024;
+
+dt=3*pi/N;
+
+t=[-2*pi:dt:pi-dt];
+
+
+f=((t.^2)/(pi.^2));
+
+f=[f f f f f];
+
+
+t=[-8*pi:dt:7*pi-dt];
+
+
+length(f)
+
+length(t)
+
+plot(t,f(1:5120),'.')
+
+
+% Question 3
+
+
+N=1024;
+
+dt=3*pi/N;
+
+t=[-2*pi:dt:pi-dt];
+
+
+f=((t.^2)/(pi.^2));
+
+
+FF=fft(f);
+
+
+Fcoeff=FF/N;
+
+
+Fcoeff(1:13)
+
+
+
+% Question 5:
+
+
+N=1024;
+
+dt=0.002/N;
+
+
+t1=[-0.001:dt:0-dt];
+
+f1=(0.8.*((2000)^2).*t1.*(0.001+t1));
+
+
+t2=[0:dt:0.001-dt];
+
+f2=(0.8.*((2000)^2).*t2.*(0.001-t2));
+
+
+f=[f1 f2 f1 f2 f1 f2];
+
+
+t=[-.003:dt:0.003-dt];
+
+
+length(f)
+
+length(t)
+
+plot(t,f,'.')
+
+hold on
+
+
+
+t=[-.003:dt:0.003-dt];
+
+A=0.8;
+
+freq=500;
+
+f=A*sin(2*pi*freq*t);
+
+plot(t, f, 'r')
+
+
+
+
+% Question 6
+
+
+N=1024;
+
+dt=0.002/N;
+
+
+t1=[-0.001:dt:0-dt];
+
+f1=(0.8.*((2000)^2).*t1.*(0.001+t1));
+
+
+t2=[0:dt:0.001-dt];
+
+f2=(0.8.*((2000)^2).*t2.*(0.001-t2));
+
+
+f = [f1 f2];
+
+f = [f f];
+
+f = [f f];
+
+f = [f f];
+
+f = [f f];
+
+f = [f f];
+
+f = [f f];
+
+f = [f f];
+
+f = [f f];
+
+f = [f f];
+
+length(f);
+
+
+t=[-0.512:dt:0.512-dt];
+
+length(t);
+
+
+sound(f, 1/dt)
+
+
+A=0.8;
+
+freq=500;
+
+f=A*sin(2*pi*freq*t);
+
+
+sound(f, 512)
+
+
+% Question 7
+
+
+N=1024;
+
+dt=0.002/N;
+
+
+t1=[-0.001:dt:0-dt];
+
+f1=(0.8.*((2000)^2).*t1.*(0.001+t1));
+
+
+t2=[0:dt:0.001-dt];
+
+f2=(0.8.*((2000)^2).*t2.*(0.001-t2));
+
+
+f = [f1 f2];
+
+
+FF=fft(f);
+
+Fcoeff = FF/N;
+
+Fcoeff(3)
+
+
+% Question 9
+
+
+y=wavread('C:\Users\13333061\Documents\Audio1.wav');
+
+plot(y);
+
+sound(y)

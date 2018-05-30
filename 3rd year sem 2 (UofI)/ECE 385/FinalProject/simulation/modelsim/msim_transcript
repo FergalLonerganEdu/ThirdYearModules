@@ -1,0 +1,257 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do Final_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/conor_rom.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:47 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/conor_rom.sv 
+# -- Compiling module conor_rom
+# 
+# Top level modules:
+# 	conor_rom
+# End time: 15:19:47 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/18_reg.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:47 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/18_reg.sv 
+# -- Compiling module reg_18
+# 
+# Top level modules:
+# 	reg_18
+# End time: 15:19:47 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/lookuptable_rom_1.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:47 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/lookuptable_rom_1.sv 
+# -- Compiling module lookuptable_rom_1
+# 
+# Top level modules:
+# 	lookuptable_rom_1
+# End time: 15:19:47 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/flippers.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:47 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/flippers.sv 
+# -- Compiling module flippers
+# 
+# Top level modules:
+# 	flippers
+# End time: 15:19:47 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/Color_Mapper.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:47 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/Color_Mapper.sv 
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# End time: 15:19:47 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/finalproject.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:47 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/finalproject.sv 
+# -- Compiling module finalproject
+# 
+# Top level modules:
+# 	finalproject
+# End time: 15:19:47 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/VGA_controller.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:47 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/VGA_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 15:19:48 on Apr 28,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/Dreg.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:48 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/Dreg.sv 
+# -- Compiling module Dreg
+# 
+# Top level modules:
+# 	Dreg
+# End time: 15:19:48 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/11_reg.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:48 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/11_reg.sv 
+# -- Compiling module reg_11
+# 
+# Top level modules:
+# 	reg_11
+# End time: 15:19:48 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/thegame.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:48 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/thegame.sv 
+# -- Compiling module thegame
+# 
+# Top level modules:
+# 	thegame
+# End time: 15:19:48 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/lookuptable_rom_2.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:48 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/lookuptable_rom_2.sv 
+# -- Compiling module lookuptable_rom_2
+# 
+# Top level modules:
+# 	lookuptable_rom_2
+# End time: 15:19:48 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/lookuptable_rom_3.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:48 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/lookuptable_rom_3.sv 
+# -- Compiling module lookuptable_rom_3
+# 
+# Top level modules:
+# 	lookuptable_rom_3
+# End time: 15:19:48 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/lookuptable_rom_5.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:48 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/lookuptable_rom_5.sv 
+# -- Compiling module lookuptable_rom_5
+# 
+# Top level modules:
+# 	lookuptable_rom_5
+# End time: 15:19:48 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/lookuptable_rom_4.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:48 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/lookuptable_rom_4.sv 
+# -- Compiling module lookuptable_rom_4
+# 
+# Top level modules:
+# 	lookuptable_rom_4
+# End time: 15:19:48 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/back_flippers.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:48 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/back_flippers.sv 
+# -- Compiling module back_flippers
+# 
+# Top level modules:
+# 	back_flippers
+# End time: 15:19:48 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/parity.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:48 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/parity.sv 
+# -- Compiling module parity
+# 
+# Top level modules:
+# 	parity
+# End time: 15:19:48 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/debjit_rom.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:49 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/debjit_rom.sv 
+# -- Compiling module debjit_rom
+# 
+# Top level modules:
+# 	debjit_rom
+# End time: 15:19:49 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/sprite_addr_rom.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:49 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/sprite_addr_rom.sv 
+# -- Compiling module sprite_addr_rom
+# 
+# Top level modules:
+# 	sprite_addr_rom
+# End time: 15:19:49 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dlim15/FinalProject {C:/Users/dlim15/FinalProject/keyboard.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:19:49 on Apr 28,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dlim15/FinalProject" C:/Users/dlim15/FinalProject/keyboard.sv 
+# -- Compiling module keyboard
+# 
+# Top level modules:
+# 	keyboard
+# End time: 15:19:49 on Apr 28,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.color_mapper
+# vsim -gui "+altera" -l msim_transcript -do "Final_run_msim_rtl_verilog.do" 
+# Start time: 15:19:54 on Apr 28,2016
+# Loading sv_std.std
+# Loading work.color_mapper
+# Loading work.conor_rom
+# Loading work.debjit_rom
+# Loading work.sprite_addr_rom
+wave create -driver freeze -pattern constant -value 010000000000000000 -range 17 0 -starttime 0ps -endtime 1000ps sim:/color_mapper/board
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0000110000 -range 9 0 -starttime 0ps -endtime 1000ps sim:/color_mapper/DrawX
+wave create -driver freeze -pattern constant -value 0000110000 -range 9 0 -starttime 0ps -endtime 1000ps sim:/color_mapper/DrawY
+add wave -position insertpoint  \
+sim:/color_mapper/Red \
+sim:/color_mapper/Green \
+sim:/color_mapper/Blue
+restart
+# Loading sv_std.std
+# Loading work.color_mapper
+# Loading work.conor_rom
+# Loading work.debjit_rom
+# Loading work.sprite_addr_rom
+run -all
+wave modify -driver freeze -pattern constant -value 0000111111 -range 9 0 -starttime 0ps -endtime 1000ps Edit:/color_mapper/DrawX
+wave modify -driver freeze -pattern constant -value 0000111111 -range 9 0 -starttime 0ps -endtime 1000ps Edit:/color_mapper/DrawY
+restart
+# Loading sv_std.std
+# Loading work.color_mapper
+# Loading work.conor_rom
+# Loading work.debjit_rom
+# Loading work.sprite_addr_rom
+run -all
+add wave -position insertpoint  \
+sim:/color_mapper/shape1_on
+restart
+# Loading sv_std.std
+# Loading work.color_mapper
+# Loading work.conor_rom
+# Loading work.debjit_rom
+# Loading work.sprite_addr_rom
+run -all
+add wave -position insertpoint  \
+sim:/color_mapper/debjit_data
+restart
+# Loading sv_std.std
+# Loading work.color_mapper
+# Loading work.conor_rom
+# Loading work.debjit_rom
+# Loading work.sprite_addr_rom
+run -all
+# End time: 15:24:06 on Apr 28,2016, Elapsed time: 0:04:12
+# Errors: 0, Warnings: 0

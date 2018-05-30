@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1444405460 source:c:\users\fergal\desktop\new folder\assignment 3 fergal lonergan\main.cpp
+	<iostream>
+	<stdlib.h>
+	<math.h>
+
+1444433938 source:c:\users\fergal\desktop\new folder\assignment 3 fergal lonergan\src\assignment 3.cpp
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	"Assignment 3.h"
+
+1444405495 c:\users\fergal\desktop\new folder\assignment 3 fergal lonergan\include\assignment 3.h
+
+1444433528 source:c:\users\fergal\desktop\new folder\assignment 3 fergal lonergan\src\main.cpp
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	"Assignment 3.h"
+

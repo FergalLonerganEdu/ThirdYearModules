@@ -1,0 +1,13 @@
+module flippers ( input [17:0] in,
+				  output logic [17:0] rotate_cw_90, rotate_ccw_90, rotate_180, flip_diag_backslash, flip_diag_forward, flip_vert, flip_horz);
+				  
+assign rotate_cw_90 = {in[5:4], in[11:10], in[17:16], in[3:2], in[9:8], in[15:14], in[1:0], in[7:6], in[13:12]};
+assign rotate_ccw_90 = {in[13:12], in[7:6], in[1:0], in[15:14], in[9:8], in[3:2], in[17:16], in[11:10], in[5:4]};
+assign rotate_180 = {in[1:0], in[3:2], in[5:4], in[7:6], in[9:8], in[11:10], in[13:12], in[15:14], in[17:16]};
+assign flip_diag_backslash = {in[17:16], in[11:10], in[5:4], in[15:14], in[9:8], in[3:2], in[13:12], in[7:6], in[1:0]};
+assign flip_diag_forward = {in[1:0], in[7:6], in[13:12], in[3:2], in[9:8], in[15:14], in[5:4], in[11:10], in[17:16]};
+assign flip_vert = {in[13:12], in[15:14], in[17:16], in[7:6], in[9:8], in[11:10], in[1:0], in[3:2], in[5:4]};
+assign flip_horz = {in[5:0], in[11:6], in[17:12]};
+
+endmodule
+

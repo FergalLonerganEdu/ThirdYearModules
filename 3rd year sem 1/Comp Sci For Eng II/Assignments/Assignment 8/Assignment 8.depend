@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1385316878 source:c:\users\fergal\desktop\comp sci for eng ii\assignment 8\main.cpp
+	<iostream>
+
+1447369440 source:c:\users\fergal\desktop\comp sci for eng ii\assignment 8\src\main.cpp
+	"PassengerPlane.h"
+	<iostream>
+
+1447357976 c:\users\fergal\desktop\comp sci for eng ii\assignment 8\include\main.h
+
+1447369429 source:c:\users\fergal\desktop\comp sci for eng ii\assignment 8\src\passengerplane.cpp
+	"PassengerPlane.h"
+	<iostream>
+
+1447369429 c:\users\fergal\desktop\comp sci for eng ii\assignment 8\include\passengerplane.h
+	"Plane.h"
+
+1447369453 source:c:\users\fergal\desktop\comp sci for eng ii\assignment 8\src\plane.cpp
+	"Plane.h"
+	<iostream>
+
+1447369429 c:\users\fergal\desktop\comp sci for eng ii\assignment 8\include\plane.h
+	"Vehicle.h"
+
+1447369429 c:\users\fergal\desktop\comp sci for eng ii\assignment 8\include\vehicle.h
+
+1447369429 source:c:\users\fergal\desktop\comp sci for eng ii\assignment 8\src\vehicle.cpp
+	<iostream>
+	"Vehicle.h"
+

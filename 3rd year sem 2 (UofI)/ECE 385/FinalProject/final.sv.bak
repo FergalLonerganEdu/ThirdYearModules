@@ -1,0 +1,27 @@
+//-------------------------------------------------------------------------
+//      final.sv                                                         --
+//      Samuel Lim, Fergal Lonergan                                      --
+//      Spring 2016                                                      --
+//                                                                       --
+//                                                                       --
+//                                                                       --
+//      For use with Boats and Hoes (for the garden variety)             --
+//      UIUC ECE Department                                              --
+//-------------------------------------------------------------------------
+
+module final (input CLOCK_50,
+
+				  output [7:0]  VGA_R,					//VGA Red
+									 VGA_G,					//VGA Green
+									 VGA_B,					//VGA Blue
+				  output        VGA_CLK,				//VGA Clock
+									 VGA_SYNC_N,			//VGA Sync signal
+									 VGA_BLANK_N,			//VGA Blank signal
+									 VGA_VS,					//VGA virtical sync signal	
+									 VGA_HS,					//VGA horizontal sync signal
+												 
+
+
+
+)
+

@@ -1,0 +1,23 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+C:/Users/dlim15/Desktop/FinalProject {C:/Users/dlim15/Desktop/FinalProject/lookuptable_rom_1.sv}
+vlog -sv -work work +incdir+C:/Users/dlim15/Desktop/FinalProject {C:/Users/dlim15/Desktop/FinalProject/flippers.sv}
+vlog -sv -work work +incdir+C:/Users/dlim15/Desktop/FinalProject {C:/Users/dlim15/Desktop/FinalProject/shape_rom.sv}
+vlog -sv -work work +incdir+C:/Users/dlim15/Desktop/FinalProject {C:/Users/dlim15/Desktop/FinalProject/Color_Mapper.sv}
+vlog -sv -work work +incdir+C:/Users/dlim15/Desktop/FinalProject {C:/Users/dlim15/Desktop/FinalProject/finalproject.sv}
+vlog -sv -work work +incdir+C:/Users/dlim15/Desktop/FinalProject {C:/Users/dlim15/Desktop/FinalProject/VGA_controller.sv}
+vlog -sv -work work +incdir+C:/Users/dlim15/Desktop/FinalProject {C:/Users/dlim15/Desktop/FinalProject/Dreg.sv}
+vlog -sv -work work +incdir+C:/Users/dlim15/Desktop/FinalProject {C:/Users/dlim15/Desktop/FinalProject/11_reg.sv}
+vlog -sv -work work +incdir+C:/Users/dlim15/Desktop/FinalProject {C:/Users/dlim15/Desktop/FinalProject/thegame.sv}
+vlog -sv -work work +incdir+C:/Users/dlim15/Desktop/FinalProject {C:/Users/dlim15/Desktop/FinalProject/lookuptable_rom_2.sv}
+vlog -sv -work work +incdir+C:/Users/dlim15/Desktop/FinalProject {C:/Users/dlim15/Desktop/FinalProject/lookuptable_rom_3.sv}
+vlog -sv -work work +incdir+C:/Users/dlim15/Desktop/FinalProject {C:/Users/dlim15/Desktop/FinalProject/lookuptable_rom_5.sv}
+vlog -sv -work work +incdir+C:/Users/dlim15/Desktop/FinalProject {C:/Users/dlim15/Desktop/FinalProject/lookuptable_rom_4.sv}
+vlog -sv -work work +incdir+C:/Users/dlim15/Desktop/FinalProject {C:/Users/dlim15/Desktop/FinalProject/back_flippers.sv}
+vlog -sv -work work +incdir+C:/Users/dlim15/Desktop/FinalProject {C:/Users/dlim15/Desktop/FinalProject/keyboard.sv}
+

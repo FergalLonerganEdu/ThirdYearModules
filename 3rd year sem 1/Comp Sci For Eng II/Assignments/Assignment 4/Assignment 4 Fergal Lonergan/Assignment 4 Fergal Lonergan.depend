@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1445035642 source:c:\users\fergal\desktop\new folder\assignment 4 fergal lonergan\src\assignment 4.cpp
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	"Assignment 4.h"
+
+1445034399 c:\users\fergal\desktop\new folder\assignment 4 fergal lonergan\include\assignment 4.h
+
+1445034743 source:c:\users\fergal\desktop\new folder\assignment 4 fergal lonergan\src\main.cpp
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	"Assignment 4.h"
+

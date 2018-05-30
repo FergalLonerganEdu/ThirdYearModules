@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1446164164 source:c:\users\fergal\desktop\comp sci for eng ii\assignment 6 fergal lonergan\src\fraction.cpp
+	"Fraction.h"
+
+1445963622 c:\users\fergal\desktop\comp sci for eng ii\assignment 6 fergal lonergan\include\fraction.h
+
+1445963622 source:c:\users\fergal\desktop\comp sci for eng ii\assignment 6 fergal lonergan\src\main.cpp
+	<iostream>
+	"Fraction.h"
+

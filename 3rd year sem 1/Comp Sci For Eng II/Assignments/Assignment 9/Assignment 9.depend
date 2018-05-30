@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1448061208 source:c:\users\fergal\desktop\comp sci for eng ii\assignment 9\src\car.cpp
+	<iostream>
+	"Car.h"
+
+1448060854 c:\users\fergal\desktop\comp sci for eng ii\assignment 9\include\car.h
+	"Vehicle.h"
+	"Asset.h"
+
+1448060696 c:\users\fergal\desktop\comp sci for eng ii\assignment 9\include\vehicle.h
+
+1448061166 c:\users\fergal\desktop\comp sci for eng ii\assignment 9\include\asset.h
+
+1448061208 source:c:\users\fergal\desktop\comp sci for eng ii\assignment 9\src\main.cpp
+	<iostream>
+	"Car.h"
+
+1448061208 source:c:\users\fergal\desktop\comp sci for eng ii\assignment 9\src\vehicle.cpp
+	<iostream>
+	"Vehicle.h"
+
+1448061885 source:c:\users\fergal\desktop\comp sci for eng ii\assignment 9\src\asset.cpp
+	<iostream>
+	"Asset.h"
+

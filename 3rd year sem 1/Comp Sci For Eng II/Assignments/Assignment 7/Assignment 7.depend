@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1446835699 source:c:\users\fergal\desktop\comp sci for eng ii\assignment 7\src\plane.cpp
+	<iostream>
+	"Plane.h"
+
+1446835699 c:\users\fergal\desktop\comp sci for eng ii\assignment 7\include\plane.h
+	"Vehicle.h"
+
+1446835239 c:\users\fergal\desktop\comp sci for eng ii\assignment 7\include\vehicle.h
+
+1446835239 source:c:\users\fergal\desktop\comp sci for eng ii\assignment 7\src\vehicle.cpp
+	<iostream>
+	"Vehicle.h"
+

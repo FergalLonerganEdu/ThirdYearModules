@@ -1,0 +1,42 @@
+Fs = 11025;            % Sampling frequency
+T = 1/Fs;             % Sampling period
+L = 80000;             % Length of signal
+t = (0:L-1)*T;        % Time vector
+%q2
+
+plot(data,t)
+plot(80000*t(1:11025),data(1:11025))
+title('Signal Corrupted with Zero-Mean Random Noise')
+xlabel('t (milliseconds)')
+ylabel('data(t)')
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%q3
+Y = fft(data);
+P2 = abs(Y/L);
+P1 = P2(1:L/2+1);
+P1(2:end-1) = 2*P1(2:end-1);
+f = Fs*(0:(L/2))/L;
+hold();
+plot(f,P1)
+title('Single-Sided Amplitude Spectrum of data(t)')
+xlabel('f (Hz)')
+ylabel('|P1(f)|')
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%q5
+N = [1 0 640000*(pi.^2)]
+D = [1 3200*pi 640000*(pi.^2)]
+f1=[0:0.001:0.999]*5000;
+H=polyval (N, pi*2*i*f1)./polyval (D, pi*2*i*f1);
+hold();
+plot (f, abs(H))
+hold();
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%q6 
+num=[35 0 35*((800*pi)^2)]; %multiplying orignal num by k, increase k until audible
+G=tf(num, den);
+t1=[0:dt:7.2562]; % time vector for entire length of signal. 7.2562s duration of signal
+[yout, xout] = lsim (G, data, t1);
+sound(yout,fs)

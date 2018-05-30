@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1475438581 source:c:\users\fergal\desktop\comp sci for eng ii\sieve\sieve.c
+	<stdio.h>
+
+1475434938 source:c:\users\fergal\desktop\comp sci for eng ii\sieve\main.c
+	<stdio.h>
+	<stdlib.h>
+
